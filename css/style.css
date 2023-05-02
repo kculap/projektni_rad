@@ -1,0 +1,145 @@
+body {
+    background-color: #FAF7F6;
+    font-family: 'Inter';
+}
+
+.research-details {
+    background-color: #FDFDFD;
+    margin: 10pt;
+    padding: 30pt;
+    border-radius: 15pt;
+    box-shadow: 0.5px 2px #9991919d;
+
+}
+
+.author {
+    display: grid;
+    grid-template-rows: 60pt;
+    grid-template-columns: 20% 20% 20% 20%;
+    position: relative;
+    line-height: 20pt;
+
+}
+
+h3 {
+    font-weight: lighter;
+    color: #999191;
+
+}
+
+.cite-link {
+    color: #4765F8;
+    text-decoration: underline;
+}
+
+.downloadBtn {
+    width: 188px;
+    height: 49px;
+    color: white;
+    background-color: #A07B66;
+    border: none;
+    border-radius: 5pt;
+    float: right;
+    margin: 15pt;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.profile-pic {
+    width: 24px;
+    height: 24px;
+    border-radius: 67px;
+
+
+}
+
+.abstract {
+    margin: 10pt;
+    padding: 30pt;
+    text-align: justify;
+    line-height: 20pt;
+}
+
+.key-words {
+    font-weight: bolder;
+}
+
+hr {
+    margin-inline: 50pt;
+    color: #999191;
+}
+
+.references {
+    margin: 10pt;
+    padding: 30pt;
+}
+
+li {
+    padding: 15pt
+}
+
+.information {
+    background: linear-gradient(120deg, #E5AF90, #C4967C, #A07B66);
+    padding: 50pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.cite {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20pt;
+    margin-inline: 25pt;
+    color: #999191;
+    width: 450px;
+    box-shadow: 2px 2px 2px 2px rgba(105, 105, 105, 0.493);
+
+}
+
+
+.about-article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20pt;
+    margin-inline: 25pt;
+    color: #999191;
+    width: 450px;
+    box-shadow: 2px 2px 2px 2px rgba(105, 105, 105, 0.493);
+
+
+}
+
+.copyBtn {
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    color: #4765F8;
+    float: right;
+    padding: 25pt;
+
+}
+
+.information h2 {
+    color: black;
+    font-weight: lighter;
+}
+
+.about-box {
+    display: grid;
+    grid-template-rows: 80pt 80pt;
+    grid-template-columns: 150pt 150pt;
+    position: relative;
+    justify-content: center;
+    margin-left: 50pt;
+}
+
+.mailto {
+    color: black;
+    font-size: smaller;
+}
